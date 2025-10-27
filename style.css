@@ -9,25 +9,30 @@ body{
    background-repeat: no-repeat;
    background-size:cover ;
 }
+.links{
+    align-items: center;
+}
 
 .links a {
-   display: flex;
+    display: flex;
     align-items: center;
-   justify-content: center;
-    gap: 10px;
-   text-decoration: none;
-   color: white;
-   font-size: 1.2rem;
-   transition: transform 0.2s ease;
+    gap: 12px;
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+    transition: transform 0.2s ease;
+    font-weight: 100;
+    padding: 5px;
+    border-radius: 80px;
 }
 
 .links a:hover {
     transform: scale(1.05);
+    background-color: rgba(255,255,255,0.4);
 }
 
 .links img {
-    
-    width: 30px;
+    width: 40px;
     height: 30px;
 }
 
